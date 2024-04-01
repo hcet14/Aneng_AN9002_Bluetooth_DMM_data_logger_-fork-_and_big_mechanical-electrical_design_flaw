@@ -1,4 +1,4 @@
-# Aneng AN9002 Bluetooth DMM data logger fork + big mechanical/electrical design flaw!
+# Aneng AN9002 Bluetooth DMM data logger (fork) + big mechanical/electrical design flaw!
 
 This is more or less a fork from https://github.com/riktw/AN9002_info. @riktw, thanks a lot!
 
