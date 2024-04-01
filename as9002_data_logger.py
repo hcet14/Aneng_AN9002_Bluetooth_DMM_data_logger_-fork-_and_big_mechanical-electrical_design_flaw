@@ -128,7 +128,7 @@ if __name__ == "__main__":
     with open('an9002.csv', 'w') as f:                                                                                  #hcet14
         wr = csv.writer(f)                                                                                 
                                                                                                            
-        if lastDisplayedUnit == '°C' or lastDisplayedUnit == '°F':                                                        #hcet14
+        if lastDisplayedUnit == '°C' or lastDisplayedUnit == '°F':                                                      #hcet14
             wr.writerow(['Time[hh:mm:ss.µs]', 'Temperature[' + lastDisplayedUnit + ']'])                                #hcet14
         elif lastDisplayedUnit == 'nF':                                                                                 #hcet14
             wr.writerow(['Time[hh:mm:ss.µs]', 'Capacity[' + lastDisplayedUnit + ']'])                                   #hcet14
